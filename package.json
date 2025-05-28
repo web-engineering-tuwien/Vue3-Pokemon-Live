@@ -1,0 +1,26 @@
+{
+  "name": "vue-pokemon-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "pinia": "^3.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/test-utils": "^2.4.6",
+    "c8": "^10.1.3",
+    "eslint-plugin-vue": "^10.1.0",
+    "jsdom": "^26.1.0",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.4",
+    "vue": "^3.5.15"
+  }
+}
